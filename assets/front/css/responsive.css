@@ -1,0 +1,217 @@
+@media only screen and (max-width:1160px){
+  
+}
+@media only screen and (max-width:991px){
+ 	.nav-toggler {
+    	display: flex;
+	}
+	body.nav-active {
+    	position: fixed;
+    	width: 100%;
+	}
+	.header-top{
+		display: none;
+	}
+	.logo-col{
+		text-align: center;
+	}
+	.logo-col .logo-wrap img{
+	    max-width: 195px;
+	    position: relative;
+	    top: -5px;
+	}
+	.header-top ul{
+		display: none;
+	}
+	.head-right-col{
+
+	}
+	.index-sec-1 {
+	    padding-top: 200px;
+	    padding-bottom: 60px;
+	    height: auto;
+    }
+    .index-1-text .heading {
+	   font-size: 60px;
+	}
+	.grad-btn{
+		font-size: 16px;
+	}
+	.index-sec-2 {
+    	padding: 50px 0 20px 0;
+	}
+	.index-2-text {
+    	padding-left: 0;
+	}
+	.index-2-text .heading {
+	    font-size: 26px;
+	    padding-bottom: 25px;
+	}
+	.index-sec-3 {
+    	padding: 30px 0 35px 0;
+	}
+	.index-sec-4 {
+    	padding: 60px 0;
+	}
+	.index-sec-5 {
+    	padding: 50px 0;
+	}
+	.contact-us-section {
+    	padding: 50px 0px;
+	}
+	.footer_wrapper {
+    	padding: 50px 0px 0px 0px;
+	}
+	.footer_wrapper h6{
+		margin-bottom: 10px;
+	}
+	.footer_wrapper_2 h6 {
+    	margin-bottom: 40px;
+	}
+	.footer_wrapper_4 p {
+    	margin-bottom: 20px;
+	}
+	.copyright {
+    	margin-top: 50px;
+	}
+	.inner-banner-sec {
+        padding: 250px 0 200px 0;
+    }
+	.index-banner-text .heading {
+        font-size: 55px;
+	}
+	.classes-item .img img {
+        width: 100%;
+	}
+	.time-tab-wrap .tab-pane .row{
+	    justify-content: center;
+	}
+	.time-tab-wrap .time-box-outer{
+	    border-right: 1px solid #dee2e6;
+	    border-bottom: 1px solid #dee2e6;
+	}
+	.time-tab-wrap .time-box-3, .time-tab-wrap .time-box-6,
+	.time-tab-wrap .time-box-8{
+	    border-right: none;
+	}
+	.time-tab-wrap .time-box-7,.time-tab-wrap .time-box-8{
+	    border-bottom: none;
+	}
+	.gallery-tab-wrap .nav-tabs .nav-link {
+        padding: 15px 20px;
+    }
+}
+@media only screen and (max-width:767px){
+	.index-2-left p.underline {
+    	padding-bottom: 20px;
+	}
+	.index-2-left p.underline:before {
+    	bottom: 5px;
+	}
+	.index-2-left .text {
+    	padding-bottom: 25px;
+	}
+	.index-2-left .heading {
+    	font-size: 26px;
+	}
+	.index-2-text .grad-btn {
+    	margin-top: 10px;
+	}
+	.index-3-text p.underline {
+    	padding-bottom: 20px;
+	}
+	.index-3-text p.underline:before {
+    	bottom: 10px;
+	}
+	.index-5-slider .owl-dots .owl-dot:not(:last-of-type) {
+    	margin-right: 10px;
+	}
+	.contact-us-text h5 {
+	    width: 100%;
+	    font-size: 34px;
+	    margin-bottom: 20px;
+	}
+	.time-tab-wrap .time-box-outer{
+	    border-right: 1px solid #dee2e6;
+	    border-bottom: 1px solid #dee2e6;
+	}
+	.time-tab-wrap .time-box-outer:nth-of-type(even){
+	    border-right: none;
+	}
+	.time-tab-wrap .time-box-7, .time-tab-wrap .time-box-8{
+	    border-bottom: none;
+	}
+}
+@media only screen and (max-width:660px){
+    .logo-col .logo-wrap img {
+        max-width: 175px;
+    }
+    .index-1-text .heading {
+        font-size: 44px;
+    }
+    .index-banner-text .heading {
+        font-size: 40px;
+	}
+	.inner-banner-sec {
+        padding: 220px 0 170px 0;
+    }
+}
+@media only screen and (max-width:575px){
+	.index-3-text .heading {
+	    font-size: 26px;
+	    line-height: 1.2;
+	}
+	.time-tab-wrap .time-box-outer {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .time-tab-wrap .nav-tabs .nav-link {
+        padding: 15px 20px;
+    }
+    .gallery-tab-wrap .portfolio-item-inner span {
+        width: 40px;
+        height: 40px;
+    }
+    .gallery-tab-wrap .portfolio-item-inner span i {
+        font-size: 16px;
+    }
+    .popup-form .modal-body .icon {
+        width: 100%;
+        padding: 0;
+    }
+    .popup-form .modal-body .icon img{
+        max-width: 150px;
+    }
+    .popup-form .modal-body .form-wrap {
+        width: 100%;
+    }
+    .popup-form .modal-dialog{
+        margin: 8px 20px;
+    }
+    .popup-form .modal-content .close {
+        right: auto;
+        left: -10px;
+    }
+}
+@media only screen and (max-width:440px){
+    .time-tab-wrap .time-box-outer.empty{
+	    display: none;
+	}
+    .time-tab-wrap .time-box-outer {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .time-tab-wrap .time-box-outer{
+	    border-right: none;
+	    border-bottom: 1px solid #dee2e6;
+	}
+	.time-tab-wrap .time-box-8{
+	    border-bottom: none;
+	}
+	.contact-sec-3 .index-2-text .heading {
+        font-size: 30px;
+	}
+	.contact-sec-3 .index-2-text p {
+        font-size: 14px;
+	}
+}

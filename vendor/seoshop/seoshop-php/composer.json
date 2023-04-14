@@ -1,0 +1,23 @@
+{
+    "name": "seoshop/seoshop-php",
+    "description": "PHP client for the Lightspeed eCom API",
+    "keywords": ["api", "client", "php", "ecom", "lightspeed"],
+    "homepage": "http://developers.lightspeedhq.com/ecom",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lightspeed and contributors",
+            "homepage": "https://github.com/SEOshop/API-PHP-Client/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "files": ["src/WebshopappApiClient.php"]
+    }
+}
